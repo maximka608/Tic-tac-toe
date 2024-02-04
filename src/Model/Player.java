@@ -1,5 +1,4 @@
 package Model;
-
 public class Player {
     private String username;
     private String symbol;
