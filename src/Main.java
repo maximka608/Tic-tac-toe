@@ -1,5 +1,7 @@
 import Model.*;
 import View.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,9 +13,8 @@ public class Main {
         System.out.println(player1.getSymbol());
 
         Board board = new Board();
-        board.setCell_symbol(player1.getSymbol());
-        board.setCell_owner(player1.getUsername());
+        List<List<Board>> arr_board = board.createBoard();
 
-        BoardView.printBoard(board);
+        BoardView.printBoard(arr_board);
     }
 }
