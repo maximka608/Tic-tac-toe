@@ -1,7 +1,9 @@
 package Model;
+
 public class Player {
     private String username;
     private String symbol;
+
 
     public String getUsername() {
         return username;
