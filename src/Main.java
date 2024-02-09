@@ -47,5 +47,6 @@ public class Main {
         System.out.println("OK, your info");
         playerController.updateView();
 
+
     }
 }

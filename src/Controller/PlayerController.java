@@ -29,6 +29,6 @@ public class PlayerController {
     }
 
     public void updateView() {
-        view.printPlayer(model);
+        view.printPlayer(model.getUsername(), model.getSymbol());
     }
 }
